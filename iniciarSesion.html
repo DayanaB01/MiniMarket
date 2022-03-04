@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Iniciar Sesion</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h1>MiniMarket.com</h1>
+            </div>
+            <div class="col-md-4">
+                <br><br>
+                <center><a href="iniciarSesion.html" id="inicio">Iniciar Sesion</a></center>
+            </div>
+
+        </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="barra">
+                        <div class="row">
+                            <div class="col-md-3">
+                            <center><a href="index.html" id="vistas">Inicio</a></center>
+                            </div>
+                            <div class="col-md-3">
+                            <center><a href="ropa.html" id="vistas">Ropa</a></center>
+                            </div>
+                            <div class="col-md-3">
+                            <center> <a href="accesorios.html" id="vistas">Accesorios</a></center>
+                            </div>
+                            <div class="col-md-3">
+                            <center><a href="carrito.html" id="vistas">Carrito de Compras</a></center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><br><br><br>
+
+        <!--titulo de inicio de sesion-->
+       
+            <div class="row">
+                <center>
+                <div class="col-md-5">
+                    <h2>INICIO DE SESION
+                        EN MINIMARKET.COM
+                    </h2><br><br>
+                <label for="Usuario" class="texto">Usuario </label>
+                <input type="text" id="usuario" maxlength="20"><br>
+                <label for="Contraseña" class="texto">Contraseña</label>
+                <input type="password" id="contrasenaI" maxlength="25"><br><br>
+                <input type="button" id="ingresar" value="Ingresar"  onclick="inicioSesion()" class="btn btn-primary">
+                </div>      
+            </center>  
+
+        <!--instrucciones-->
+        <div class="col-md-5">
+            <h5>INTRUCCIONES</h5>
+            <p>-Ingresa el nombre de usuario que utilisastes cuando te registrastes.</p><br>
+            <p>-Ingresa la contraseña creada por ti en el registro.</p><br>
+            <p>-No compartas la contraseña con nadie.</p><br>
+            <p>-Si tienes algun problema con el ingreso por favor comunicarse con los contactos que aparecen en la
+                parte inferior de la pantalla.</p><br>
+            <p>-Utiliza tu correo para el registro en nuestro portal.</p><br>
+           <a href="registro.html"> <input type="button" id="registrar"  value="Registrarme"  class="btn btn-primary"></a>
+        </div>
+        </div><br><br>
+           
+
+         <!--banner-->
+         <center>
+                <div id="banner">
+                    <div class="row">
+    
+                        <div class="col-md-12">
+    
+                                <p>Contactos:  3150008935-2334443 </p>
+                                <p> linea nacional:  01800032323134</p>
+                                <p> Quejas y reclamos:  minimarket.comercioweb@gmail.com</p>
+                                <p> Dererchos de autor Reservados</p>
+                                <p>MiniMarket web</p>
+    
+    
+    
+                        </div>
+    
+                    </div>
+                </div>
+            </center>
+
+
+
+
+    </div>
+</body>
+<script type="text/javascript" src="includes/jquery/jquery-3.3.1.js"></script>
+<link rel="stylesheet" type="text/css" href="includes/bootsrap 4/css/bootstrap.min.css">
+<script type="text/javascript" src="vista/js/general.js"></script>
+<link rel="stylesheet" href="vista/js/general.js">
+<link rel="stylesheet" href="vista/css/sesion.css">
+
+</html>

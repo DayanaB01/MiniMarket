@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Registrarse</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h1>MiniMarket.com</h1>
+            </div>
+            <div class="col-md-4">
+                <br><br>
+                <center><a href="iniciarSesion.html" id="inicio">Iniciar Sesion</a></center>
+            </div>
+        </div>
+
+        <!--Barra-->
+
+        <div class="row">
+            <div class="col-md-12">
+                <div id="barra">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <center><a href="index.html" id="vistas">Inicio</a></center>
+                        </div>
+                        <div class="col-md-3">
+                            <center><a href="ropa.html" id="vistas">Ropa</a></center>
+                        </div>
+                        <div class="col-md-3">
+                            <center> <a href="accesorios.html" id="vistas">Accesorios</a></center>
+                        </div>
+                        <div class="col-md-3">
+                            <center><a href="carrito.html" id="vistas">Carrito de Compras</a></center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br><br><br>
+
+        <!--Registro-->
+
+        <div class="row">
+
+            <div class="col-md-6">
+                <center>
+                    <h3>REGISTRARSE</h3><br><br>
+                    <label for="Nombre" class="texto">Nombre</label>
+                    <input type="text" id="nombre" maxlength="15"><br><br>
+                    <label for="Apellido" class="texto">Apellido</label>
+                    <input type="text" id="apellido" maxlength="20"><br><br>
+                    <label for="Nacimiento" class="texto">Año de nacimiento</label>
+                    <input type="text" id="nacimiento" maxlength="4"><br><br>
+                    <label for="Correo" class="texto">Correo</label>
+                    <input type="text" id="correo" maxlength="30"><br><br>
+                    <label for="Contrasena" class="texto">Nueva Contraseña</label>
+                    <input type="password" id="contrasena" maxlength="15"><br><br>
+               <input type="button" id="registro" onclick="registro()" value="Enviar" class="btn btn-primary">
+                </center>
+            </div>
+
+            <!--Instrucciones-->
+            <div class="col-md-6">
+                <center>
+                    <h3>INSTRUCCIONES</h3><br><br>
+                    <p>-Ingresa tu nombre el cual tambien sera tu nombre de usuario.</p>
+                    <p>-Ingresa tu apellido.</p>
+                    <p>-Ingresa solo el año de nacimiento ej:1999</p>
+                    <p>-Ingresa tu correo mas activo pues te estaremos informando acerca de promociones que tenemos para ti, nuevos productos y lo mas importante podras recuperar tu contraseña en caso de que se te olvide</p>
+                    <p>-Ingresa la contraseña que utilizaras al ingresar a nuestro portal.</p>
+                </center>
+
+            </div>
+
+
+        </div><br><br>
+
+         <!--banner-->
+         <center>
+                <div id="banner">
+                    <div class="row">
+    
+                        <div class="col-md-12">
+    
+                                <p>Contactos:  3150008935-2334443 </p>
+                                <p> linea nacional:  01800032323134</p>
+                                <p> Quejas y reclamos:  minimarket.comercioweb@gmail.com</p>
+                                <p> Dererchos de autor Reservados</p>
+                                <p>MiniMarket web</p>
+    
+    
+    
+                        </div>
+    
+                    </div>
+                </div>
+            </center>
+
+
+
+    </div>
+</body>
+<script type="text/javascript" src="includes/jquery/jquery-3.3.1.js"></script>
+<link rel="stylesheet" type="text/css" href="includes/bootsrap 4/css/bootstrap.min.css">
+<script type="text/javascript" src="vista/js/general.js"></script>
+<link rel="stylesheet" href="vista/js/general.js">
+<link rel="stylesheet" href="vista/css/registro.css">
+
+</html>

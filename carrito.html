@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Carrito de Compras</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h1>MiniMarket.com</h1>
+            </div>
+            <div class="col-md-4">
+                <br><br>
+                <center><a href="iniciarSesion.html" id="inicio">Iniciar Sesion</a></center>
+            </div>
+        </div>
+
+        <!--Barra-->
+
+        <div class="row">
+            <div class="col-md-12">
+                <div id="barra">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <center><a href="index.html" id="vistas">Inicio</a></center>
+                        </div>
+                        <div class="col-md-3">
+                            <center><a href="ropa.html" id="vistas">Ropa</a></center>
+                        </div>
+                        <div class="col-md-3">
+                            <center> <a href="accesorios.html" id="vistas">Accesorios</a></center>
+                        </div>
+                        <div class="col-md-3">
+                            <center><a href="carrito.html" id="vistas">Carrito de Compras</a></center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><br><br><br>
+
+        <!--titulo2-->
+        <center>
+            <div class="row">
+
+                <div class="col-md-12">
+                    <h3>TU LISTA DE COMPRAS!</h3>
+                    <p>Aqui puedes ver tu lista de los productos que has agregado al carrito de compras, podras editar
+                        la cantidad de unidades que compraras por cada producto, eliminar productos que ya no
+                        necesitas, insertar más productos.</p>
+                </div>
+            </div>
+        </center>
+        <br><br><br>
+
+        <!--Tabla-->
+
+        <div class="row">
+            <div class="col-md-8 offset-4">
+                <table border="black">
+                    <thead>
+                        <tr>
+                            <th>PRODUCTO</th>
+                            <th>UNIDADES</th>
+                            <th>PRECIO UNIDAD</th>
+                            <th>PRECIO TOTAL</th>
+                        </tr>
+                    </thead>
+                    <tbody id="contenido">
+
+                    </tbody>
+                </table>
+                <br><br><br>
+                <!--boton para mmostrar contenido-->
+
+                <input type="button" id="mostrar" value="Mostrar" class="btn btn-primary">
+                <input type="button" id="editar" value="Editar" class="btn btn-primary">
+                <input type="button" id="eliminar" value="Quitar" class="btn btn-primary">
+
+            </div>
+        </div>
+
+        <br><br><br><br>
+        <!--banner-->
+        <center>
+            <div id="banner">
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                            <p>Contactos:  3150008935-2334443 </p>
+                            <p> linea nacional:  01800032323134</p>
+                            <p> Quejas y reclamos:  minimarket.comercioweb@gmail.com</p>
+                            <p> Dererchos de autor Reservados</p>
+                            <p>MiniMarket web</p>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </center>
+
+    </div>
+</body>
+
+<script type="text/javascript" src="includes/jquery/jquery-3.3.1.js"></script>
+<link rel="stylesheet" type="text/css" href="includes/bootsrap 4/css/bootstrap.min.css">
+<script type="text/javascript" src="vista/js/general.js"></script>
+<link rel="stylesheet" href="vista/js/general.js">
+<link rel="stylesheet" href="vista/css/carrito.css">
+
+</html>

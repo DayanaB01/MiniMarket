@@ -1,0 +1,33 @@
+@font-face{
+    font-family: titulo;
+    src: url(../../includes/tipo/Sweet\ Hipster.ttf)
+}
+h1{
+font-family:titulo;
+font-size: 100px;
+}
+
+#inicio{
+color : black;
+}
+
+#barra{
+    background-color: blue;
+    height: 45px;
+}
+
+#vistas{
+    color: white;
+}
+#carouselExampleControls{
+
+    width: 1100px;
+    height: 600px;
+}
+
+
+#banner{
+    background-color: black;
+    color: white;
+}
+
