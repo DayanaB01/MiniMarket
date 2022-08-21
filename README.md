@@ -1,5 +1,5 @@
 # MiniMarket
-Diseño visual, prototipo de una web para una tienda de ropa, usando arrays en js.
+Diseño visual, estructura de una web para una tienda de ropa, usando HTML.
 
 <pre>
 Here you will find a page ecommerce of sport products.
