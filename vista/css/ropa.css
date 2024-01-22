@@ -12,9 +12,21 @@ h1{
     color : black;
     }
     
-    #barra{
-        background-color: blue;
-        height: 45px;
+    .barra{
+        background-color: #000000;
+        font-size: large;
+        display: flex;
+        justify-content: space-around;
+    }
+    .row{
+        border: 1px solid slateblue;
+        margin-bottom: 2%;
+    }
+    .introduccion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
     #vistas{

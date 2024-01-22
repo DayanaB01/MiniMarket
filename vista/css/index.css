@@ -7,15 +7,39 @@ font-family:titulo;
 font-size: 100px;
 }
 
-#inicio{
-color : black;
+
+.row{
+    margin-bottom: 4%;
 }
 
-#barra{
-    background-color: blue;
-    height: 45px;
+.inicioSesion{
+display: flex;
+align-items: center;
+height: 100%;
+justify-content: center;
+    a{
+        color : black;
+    }
 }
 
+.barra{
+    background-color: #000000;
+    font-size: large;
+    display: flex;
+    justify-content: space-around;
+}
+.carousel{
+    img{
+        height: 37.3rem;
+    }
+}
+.card{
+    width: 80%;
+    height: 100%;
+    img{
+       height: 12rem;
+    }
+}
 #vistas{
     color: white;
 }
