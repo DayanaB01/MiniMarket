@@ -2,9 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Ropa</title>
+    <title>Accesorios</title>
   </head>
-
   <body>
     <div class="container">
       <div class="row">
@@ -12,9 +11,9 @@
           <h1>MiniMarket.com</h1>
         </div>
         <div class="col-md-4">
-          <div class="inicioSesion">
-            <a href="iniciarSesion.html" id="inicio">Iniciar Sesion</a>
-          </div>
+            <div class="inicioSesion">
+                <a href="iniciarSesion.html" id="inicio">Iniciar Sesion</a>
+            </div>
         </div>
       </div>
 
@@ -22,7 +21,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="barra">
-            <a href="index.html" id="vistas">Inicio</a>
+            <a href="../../index.html" id="vistas">Inicio</a>
             <a href="ropa.html" id="vistas">Ropa</a>
             <a href="accesorios.html" id="vistas">Accesorios</a>
             <a href="carrito.html" id="vistas">Carrito de Compras</a>
@@ -35,13 +34,14 @@
       <div class="row">
         <div class="col-md-12">
           <div class="introduccion">
-            <h2>Ropa Deportiva para toda la familia</h2>
+            <h2>
+              Utiliza accesorios para acompañar tus actividades deportivas
+            </h2>
             <p>
-              Disfruta de toda la variedad de ropa deportiva que encuentras
-              aqui. Encontraras los detalles de cada prenda, si la quieres
-              adquirir da click en el boton comprar para agregarlo en tu lista
-              en el carrito de compras. Recuerda que para comprar debes primero
-              iniciar sesion.
+              Disfruta de la variedad de accesorios que aqui podras encontrar.
+              Cada uno de los accesorios ofrecidos son de alta calidad, ultima
+              tendencia en tecnologia para que acompañes tus actividades
+              diarias.
             </p>
           </div>
         </div>
@@ -50,7 +50,7 @@
       <!--titulo-->
       <div class="row">
         <div class="col-md-12">
-          <h5>Ropa para dama</h5>
+          <h5>Accesorios personales</h5>
         </div>
       </div>
 
@@ -60,15 +60,15 @@
           <div class="card">
             <img
               class="card-img-top"
-              src="vista/imagenes/blusa.jpg"
+              src="../imagenes/casco.jpg"
               alt="Card image cap"
             />
             <div class="card-body">
-              <h5 class="card-title">Blusa</h5>
+              <h5 class="card-title">Casco</h5>
               <p class="card-text">
-                -Blusa negra talla unica. -Original nike. -$ 150000.
+                -Casco unisex. -En diferentes colores. -$ 50000.
               </p>
-              <button type="submit">Comprar</button>
+              <button id="agregar" onclick="agregar()">Comprar</button>
             </div>
           </div>
         </div>
@@ -77,15 +77,15 @@
           <div class="card">
             <img
               class="card-img-top"
-              src="vista/imagenes/conjuntos.jpg"
+              src="../imagenes/beisball.jpg"
               alt="Card image cap"
             />
             <div class="card-body">
-              <h5 class="card-title">Conjunto</h5>
+              <h5 class="card-title">Guante</h5>
               <p class="card-text">
-                -Chaqueta y pantalon. -Impermeable. -$ 80000
+                -Color unico. -No incluye pelota. -$ 20000.
               </p>
-              <button type="submit">Comprar</button>
+              <button id="agregar" onclick="agregar()">Comprar</button>
             </div>
           </div>
         </div>
@@ -94,15 +94,13 @@
           <div class="card">
             <img
               class="card-img-top"
-              src="vista/imagenes/top.jpg"
+              src="../imagenes/guantes.jpg"
               alt="Card image cap"
             />
             <div class="card-body">
-              <h5 class="card-title">Top y leguis</h5>
-              <p class="card-text">
-                -Diferentes tallas. -En tres colores. -$ 50000
-              </p>
-              <button type="submit">Comprar</button>
+              <h5 class="card-title">Guantes</h5>
+              <p class="card-text">-Marca nike. -Solo dos colores. -$ 20000</p>
+              <button id="agregar" onclick="agregar()">Comprar</button>
             </div>
           </div>
         </div>
@@ -111,7 +109,7 @@
       <!--titulo-->
       <div class="row">
         <div class="col-md-12">
-          <h5>Ropa para caballero</h5>
+          <h5>Accesorios para equipos</h5>
         </div>
       </div>
 
@@ -121,13 +119,13 @@
           <div class="card">
             <img
               class="card-img-top"
-              src="vista/imagenes/a.jpg"
+              src="../imagenes/aI.jpg"
               alt="Card image cap"
             />
             <div class="card-body">
-              <h5 class="card-title">Sudadera</h5>
-              <p class="card-text">-Talla unica -Negra y gris. -$ 45000.</p>
-              <button type="submit">Comprar</button>
+              <h5 class="card-title">Buseo</h5>
+              <p class="card-text">-Unico color. -Para adultos. -$ 15000.</p>
+              <button id="agregar" onclick="agregar()">Comprar</button>
             </div>
           </div>
         </div>
@@ -136,13 +134,13 @@
           <div class="card">
             <img
               class="card-img-top"
-              src="vista/imagenes/b.jpg"
+              src="../imagenes/aII.jpg"
               alt="Card image cap"
             />
             <div class="card-body">
-              <h5 class="card-title">Buso</h5>
-              <p class="card-text">-Original de nike. -Unico color. -$50000.</p>
-              <button type="submit">Comprar</button>
+              <h5 class="card-title">Sostenedor</h5>
+              <p class="card-text">-Unico color. -Adaptable. -$ 15000</p>
+              <button id="agregar" onclick="agregar()">Comprar</button>
             </div>
           </div>
         </div>
@@ -151,15 +149,15 @@
           <div class="card">
             <img
               class="card-img-top"
-              src="vista/imagenes/c.jpg"
+              src="../imagenes/aIII.jpg"
               alt="Card image cap"
             />
             <div class="card-body">
-              <h5 class="card-title">Conjunto</h5>
+              <h5 class="card-title">Brasaletes</h5>
               <p class="card-text">
-                -Camisa y pantalon. -Colección limitada. -$ 80000.
+                -Solo en 2 colores. -Para maquinas aerobicas. -$ 30000
               </p>
-              <button type="submit">Comprar</button>
+              <button id="agregar" onclick="agregar()">Comprar</button>
             </div>
           </div>
         </div>
@@ -168,7 +166,7 @@
       <!--titulo-->
       <div class="row">
         <div class="col-md-12">
-          <h5>Ropa para niños y niñas</h5>
+          <h5>Accesorios adicionales</h5>
         </div>
       </div>
 
@@ -178,15 +176,13 @@
           <div class="card">
             <img
               class="card-img-top"
-              src="vista/imagenes/ninoI.jpg"
+              src="../imagenes/acI.jpg"
               alt="Card image cap"
             />
             <div class="card-body">
-              <h5 class="card-title">Conjunto Bascket</h5>
-              <p class="card-text">
-                -Conjunto para niño y niña. -Especial para bascket. -$ 40000.
-              </p>
-              <button type="submit">Comprar</button>
+              <h5 class="card-title">Camara deportiva</h5>
+              <p class="card-text">-Adaptable. -Unico color. -$ 200000</p>
+              <button id="agregar" onclick="agregar()">Comprar</button>
             </div>
           </div>
         </div>
@@ -195,15 +191,16 @@
           <div class="card">
             <img
               class="card-img-top"
-              src="vista/imagenes/ninoII.jpg"
+              src="../imagenes/acII.jpg"
               alt="Card image cap"
             />
             <div class="card-body">
-              <h5 class="card-title">Conjunto football</h5>
+              <h5 class="card-title">Lentes</h5>
               <p class="card-text">
-                -Conjunto para niños. -Especial para football. -$ 40000.
+                -Especiales para deportistas. -Unico color. -Rayos-v.
+                -Economicas. -Edicion limitada. -$ 50000.
               </p>
-              <button type="submit">Comprar</button>
+              <button id="agregar" onclick="agregar()">Comprar</button>
             </div>
           </div>
         </div>
@@ -212,15 +209,15 @@
           <div class="card">
             <img
               class="card-img-top"
-              src="vista/imagenes/ninoIII.jpg"
+              src="../imagenes/acIII.jpg"
               alt="Card image cap"
             />
             <div class="card-body">
-              <h5 class="card-title">Conjunto shick</h5>
+              <h5 class="card-title">Mochila</h5>
               <p class="card-text">
-                -Para niño y niña. -Unicos colores. -$ 60000.
+                -Tamaño medio. -3 unicos colores. -$ 25000.
               </p>
-              <button type="submit">Comprar</button>
+              <button id="agregar" onclick="agregar()">Comprar</button>
             </div>
           </div>
         </div>
@@ -242,13 +239,13 @@
       </center>
     </div>
   </body>
-  <script type="text/javascript" src="includes/jquery/jquery-3.3.1.js"></script>
+  <script type="text/javascript" src="../../includes/jquery/jquery-3.3.1.js"></script>
   <link
     rel="stylesheet"
     type="text/css"
-    href="includes/bootsrap 4/css/bootstrap.min.css"
+    href="../../includes/bootsrap 4/css/bootstrap.min.css"
   />
-  <script type="text/javascript" src="vista/js/general.js"></script>
-  <link rel="stylesheet" href="vista/js/general.js" />
-  <link rel="stylesheet" href="vista/css/ropa.css" />
+  <script type="text/javascript" src="../js/general.js"></script>
+  <link rel="stylesheet" href="../js/general.js" />
+  <link rel="stylesheet" href="../css/accesorios.css" />
 </html>
