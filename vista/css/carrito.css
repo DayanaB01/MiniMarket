@@ -7,25 +7,34 @@ h1{
     font-family:titulo;
     font-size: 100px;
     }
+
+    .col-md-11{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bannerNav{
+        display: flex;
+        justify-content: flex-start;
+        align-items: end;
+    }
+    .bannerNav img{
+        width: 15%;
+        height: fit-content;
+    }
     .inicioSesion{
         display: flex;
+        justify-content: end;
+        flex-direction: column;
         align-items: center;
-        height: 100%;
-        justify-content: center;
-            a{
-                color : black;
-            }
-        }
-    
-        .barra{
-            background-color: #000000;
-            font-size: large;
-            display: flex;
-            justify-content: space-around;
-            a{
-                color: white;
-            }
-        }
+    }
+    .inicioSesion a{
+       color: #000000;
+    }
+    .inicioSesion img{
+        width: 10%;
+        height: fit-content;
+    }
         .row{
             margin-bottom: 2%;
         }

@@ -1,41 +1,59 @@
-var usuarios = [];
+//PRUEBA DE CONEXION A LA BASE DE DATOS
+
+function conectar(){
+    fetch('../../controlador/restrosController.php',{
+        method: 'POST',
+        headers:{'Content-Type':'application/x-www-form-urlencoded; charser=UFT-8'},
+        body: data
+    })
+}
+
+/*VARIABLES ARRAYS GLOBALES PARA ALMACENAR DATOS*/
 var productos = [];
+var usuarios = [];
 
+/* EMPIEZA -CRUD PARA EL REGISTRO DE USUARIOS-*/
+function agregarRegistro() {
 
-function registro(event) {
-
-    var nom = document.getElementById("nombre").value;
-    var ape = document.getElementById("apellido").value;
-    var nac = document.getElementById("nacimiento").value;
-    var cor = document.getElementById("correo").value;
-    var con = document.getElementById("contrasena").value;
-
-
-    var usuario = [];
-
-    usuario.nombre = nom;
-    usuario.apellido = ape;
-    usuario.nacimiento = nac;
-    usuario.correo = cor;
-    usuario.contrasena = con;
-
-
-    usuarios.push(usuario);
-    console.log(usuarios);
-    alert("Formulario enviado. Por favor vuelva al inicio de sesion, gracias \nUtiliza " + nom + " como usuario y la nueva contraseña. Gracias");
-
-
-
+    var data = new FormData();
+    data.append('documento', document.getElementById('documento').value);
+    data.append('nombre', document.getElementById('nombre').value);
+    data.append('apellido', document.getElementById('apellido').value);
+    data.append('correo', document.getElementById('correo').value);
+    data.append('key', document.getElementById('contrasena').value);
+ 
+    usuarios.push(data)
+    console.log('doc: ',data.get('documento'),'nom: ', data.get('nombre'), 
+    'ape: ', data.get('apellido'),'correo: ', data.get('correo'), 'key: ', data.get('key'));
+    alert("Formulario enviado. Por favor vuelva al inicio de sesion, gracias \nUtiliza " + data.get('nombre') + " como usuario y la nueva contraseña. Gracias");
 }
 
-
-function agregar() {
-    console.log(usuarios.nom);
-
+function consultarRegistro() {
+    console.log(usuarios)
 }
+
+/* FINALIZA -CRUD PARA EL REGISTRO DE USUARIOS-*/
+
+/*INICIA LA FUNCION DE INICIAR SESION*/
+
 function inicioSesion() {
-    alert("Ya iniciaste sesion");
+    var data = new FormData();
+    data.append('nombre', document.getElementById('nombre').value);
+    data.append('key', document.getElementById('contrasena').value);
+
+    usuarios.push(data.get('nombre'), data.get('key'))
+    console.log('Acaba de ingresa: ',usuarios)
+
+    // if(true){
+    //     alert(data.get('nombre')+ ' ya iniciaste sesion')
+    // }else{
+    //     alert(data.get('nombre')+ ' No se encuentra registrado')
+    // }
+    alert(data.get('nombre')+ ' ya iniciaste sesion')
 }
+
+/*FIN DE LA FUNCION INICIO DE SESION*/
+
 
 
 

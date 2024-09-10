@@ -8,37 +8,49 @@
 
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                <h1>MiniMarket.com</h1>
-            </div>
-            <div class="col-md-4">
-                <br><br>
-                <center><a href="iniciarSesion.html" id="inicio">Iniciar Sesion</a></center>
+        <div class="container">
+            <div class="row">
+              <div class="col-md-11">
+                <div class="bannerNav">
+                  <h1>MiniMarket.com</h1>
+                  <img src="/vista/imagenes/shopping-cart.png" alt="icono de compra">
+                </div>
+                <div class="inicioSesion">
+                  <img src="/vista/imagenes/account.png" alt="perfil">
+                  <a href="/vista/html/iniciarSesion.html" id="inicio">Iniciar Sesion</a>
+                </div>
+              </div>
             </div>
 
         </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div id="barra">
-                        <div class="row">
-                            <div class="col-md-3">
-                            <center><a href="../../index.html" id="vistas">Inicio</a></center>
-                            </div>
-                            <div class="col-md-3">
-                            <center><a href="ropa.html" id="vistas">Ropa</a></center>
-                            </div>
-                            <div class="col-md-3">
-                            <center> <a href="accesorios.html" id="vistas">Accesorios</a></center>
-                            </div>
-                            <div class="col-md-3">
-                            <center><a href="carrito.html" id="vistas">Carrito de Compras</a></center>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div><br><br><br>
+        <div class="row">
+            <div class="col-md-12">
+              <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">MiniMarket</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </button>
+    
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="../../index.html">Inicio <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="ropa.html">Ropa</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="accesorios.html">Accesorios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="carrito.html">Carrito de compras</a>
+                  </li>
+                </ul>
+              </div>
+              </nav>
+            </div>
+          </div>
 
         <!--titulo de inicio de sesion-->
        
@@ -48,10 +60,10 @@
                     <h2>INICIO DE SESION
                         EN MINIMARKET.COM
                     </h2><br><br>
-                <label for="Usuario" class="texto">Usuario </label>
-                <input type="text" id="usuario" maxlength="20"><br>
-                <label for="Contraseña" class="texto">Contraseña</label>
-                <input type="password" id="contrasenaI" maxlength="25"><br><br>
+                <label for="Usuario" class="texto" >Usuario </label>
+                <input type="text" maxlength="20" id="nombre"><br>
+                <label for="Contraseña" class="texto" >Contraseña</label>
+                <input type="password" id="contrasena" maxlength="25"><br><br>
                 <input type="button" id="ingresar" value="Ingresar"  onclick="inicioSesion()" class="btn btn-primary">
                 </div>      
             </center>  

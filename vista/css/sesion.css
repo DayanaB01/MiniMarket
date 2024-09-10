@@ -6,14 +6,32 @@ h1{
 font-family:titulo;
 font-size: 100px;
 }
-
-#inicio{
-color : black;
+.col-md-11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-#barra{
-    background-color: blue;
-    height: 45px;
+.bannerNav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+}
+.bannerNav img{
+    width: 15%;
+    height: fit-content;
+}
+.inicioSesion{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: center;
+}
+.inicioSesion a{
+   color: #000000;
+}
+.inicioSesion img{
+    width: 10%;
+    height: fit-content;
 }
 
 #vistas{
