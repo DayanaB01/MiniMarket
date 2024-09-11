@@ -53,6 +53,8 @@
               </nav>
             </div>
           </div>
+
+
         <!--titulo2-->
             <div class="row">
                 <div class="col-md-12">
@@ -68,45 +70,61 @@
         <!--Tabla-->
 
         <div class="row">
-            <div class="col-md-8 offset-4">
-                <table border="black">
-                    <thead>
+            <div class="col-md-8 offset-2">
+                <table class="table">
+                    <thead class="thead-dark">
                         <tr>
-                            <th>PRODUCTO</th>
-                            <th>UNIDADES</th>
-                            <th>PRECIO UNIDAD</th>
-                            <th>PRECIO TOTAL</th>
+                            <th scope="col">PRODUCTO</th>
+                            <th scope="col">UNIDADES</th>
+                            <th scope="col">PRECIO UNIDAD</th>
+                            <th scope="col">PRECIO TOTAL</th>
                         </tr>
                     </thead>
                     <tbody id="contenido">
-
+                      <tr>
+                        <th scope="row">Contenido</th>
+                        <th scope="row">Contenido</th>
+                        <th scope="row">Contenido</th>
+                        <th scope="row">Contenido</th>
+                      </tr>
+                      <tr>
+                        <th scope="row">Contenido</th>
+                        <th scope="row">Contenido</th>
+                        <th scope="row">Contenido</th>
+                        <th scope="row">Contenido</th>
+                      </tr>
                     </tbody>
-                </table>
-                <br>
-                <!--boton para mmostrar contenido-->
-                <button type="submit">Mostrar</button>
-                <button type="submit">Editar</button>
-                <button type="submit">Eliminar</button>
-                <button type="submit">Comprar</button>
+                </table>              
             </div>
         </div>
 
-        <!--banner-->
-        <center>
-            <div id="banner">
-                <div class="row">
+                <!--boton para mmostrar contenido-->
 
-                    <div class="col-md-12">
-
-                            <p>Contactos:  3150008935-2334443 </p>
-                            <p> linea nacional:  01800032323134</p>
-                            <p> Quejas y reclamos:  minimarket.comercioweb@gmail.com</p>
-                            <p> Dererchos de autor Reservados</p>
-                            <p>MiniMarket web</p>
-                    </div>
-                </div>
+        <div class="row">
+          <div class="col-md-4 offset-4">
+            <div class="buttons">
+              <button type="submit">Mostrar</button>
+              <button type="submit">Editar</button>
+              <button type="submit">Eliminar</button>
+              <button type="submit">Comprar</button>
             </div>
-        </center>
+          </div>
+        </div>
+
+        <!--banner-->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="footer">
+              <ul>
+                <li>Contactos: 3150008935-2334443</li>
+                <li>Quejas y reclamos: minimarket.comercioweb@gmail.com</li>
+                <li>Dererchos de autor Reservados</li>
+                <li>linea nacional: 01800032323134</li>
+                <li>MiniMarket web</li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
     </div>
 </body>
@@ -117,6 +135,7 @@
   type="text/css"
   href="../../includes/bootsrap 4/css/bootstrap.min.css"
 />
+<script type="text/javascript" src="../../includes/bootsrap 4/js/bootstrap.bundle.min.js"></script>
 <script type="text/javascript" src="../js/general.js"></script>
 <link rel="stylesheet" href="../js/general.js" />
 <link rel="stylesheet" href="../css/carrito.css">

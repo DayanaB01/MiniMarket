@@ -78,6 +78,7 @@
         </div>
       </div>
 
+
       <!--targeticas-->
       <div class="row">
         <div class="col-md-4">
@@ -89,13 +90,50 @@
             />
             <div class="card-body">
               <h5 class="card-title">Casco</h5>
-              <p class="card-text">
-                -Casco unisex. -En diferentes colores. -$ 50000.
-              </p>
-              <button id="agregar" onclick="agregar()">Comprar</button>
+              <ul class="card-text">
+                <li>Casco unisex.</li>
+                <li>En diferentes colores.</li>
+                <li>$ 50000.</li>
+              </ul>
+              <button type="submit" class="btn btn-outline-dark"  data-toggle="modal" data-target="#exampleModal">Más info</button>
             </div>
           </div>
         </div>
+
+        <!--Modal-->
+    <div class="row">
+      <div class="col-md-12">
+<!-- Modal -->
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Información del producto</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Adipisci cupiditate temporibus est, corrupti laboriosam illo,
+          nesciunt amet ab in quidem qui. Dolorem totam, accusantium excepturi 
+          eveniet magnam architecto. Rem, quis.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Comprar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  </div>
+</div>
+        <!---->
+
 
         <div class="col-md-4">
           <div class="card">
@@ -106,10 +144,12 @@
             />
             <div class="card-body">
               <h5 class="card-title">Guante</h5>
-              <p class="card-text">
-                -Color unico. -No incluye pelota. -$ 20000.
-              </p>
-              <button id="agregar" onclick="agregar()">Comprar</button>
+              <ul  class="card-text">
+                <li>Color unico.</li>
+                <li>No incluye pelota.</li>
+                <li>$ 20000.</li>
+              </ul>
+              <button type="submit" class="btn btn-outline-dark"  data-toggle="modal" data-target="#exampleModal">Más info</button>
             </div>
           </div>
         </div>
@@ -123,8 +163,12 @@
             />
             <div class="card-body">
               <h5 class="card-title">Guantes</h5>
-              <p class="card-text">-Marca nike. -Solo dos colores. -$ 20000</p>
-              <button id="agregar" onclick="agregar()">Comprar</button>
+              <ul class="card-text">
+                <li>Marca nike.</li>
+                <li>Solo dos colores.</li>
+                <li>$ 20000</li>
+              </ul>
+              <button type="submit" class="btn btn-outline-dark"  data-toggle="modal" data-target="#exampleModal">Más info</button>
             </div>
           </div>
         </div>
@@ -148,8 +192,12 @@
             />
             <div class="card-body">
               <h5 class="card-title">Buseo</h5>
-              <p class="card-text">-Unico color. -Para adultos. -$ 15000.</p>
-              <button id="agregar" onclick="agregar()">Comprar</button>
+              <ul class="card-text">
+                <li>Unico color.</li>
+                <li>Para adultos.</li>
+                <li>$ 15000.</li>
+              </ul>
+              <button type="submit" class="btn btn-outline-dark"  data-toggle="modal" data-target="#exampleModal">Más info</button>
             </div>
           </div>
         </div>
@@ -163,8 +211,12 @@
             />
             <div class="card-body">
               <h5 class="card-title">Sostenedor</h5>
-              <p class="card-text">-Unico color. -Adaptable. -$ 15000</p>
-              <button id="agregar" onclick="agregar()">Comprar</button>
+              <ul class="card-text">
+                <li>Unico color.</li>
+                <li>Adaptable.</li>
+                <li>$ 15000</li>
+              </ul>
+              <button type="submit" class="btn btn-outline-dark"  data-toggle="modal" data-target="#exampleModal">Más info</button>
             </div>
           </div>
         </div>
@@ -178,10 +230,12 @@
             />
             <div class="card-body">
               <h5 class="card-title">Brasaletes</h5>
-              <p class="card-text">
-                -Solo en 2 colores. -Para maquinas aerobicas. -$ 30000
-              </p>
-              <button id="agregar" onclick="agregar()">Comprar</button>
+              <ul class="card-text">
+                <li>Solo en 2 colores.</li>
+                <li>Para maquinas aerobicas.</li>
+                <li>$ 30000</li>
+              </ul>
+              <button type="submit" class="btn btn-outline-dark"  data-toggle="modal" data-target="#exampleModal">Más info</button>
             </div>
           </div>
         </div>
@@ -205,8 +259,12 @@
             />
             <div class="card-body">
               <h5 class="card-title">Camara deportiva</h5>
-              <p class="card-text">-Adaptable. -Unico color. -$ 200000</p>
-              <button id="agregar" onclick="agregar()">Comprar</button>
+              <ul class="card-text">
+                <li>Adaptable.</li>
+                <li>Unico color.</li>
+                <li>$ 200000</li>
+              </ul>
+              <button type="submit" class="btn btn-outline-dark"  data-toggle="modal" data-target="#exampleModal">Más info</button>
             </div>
           </div>
         </div>
@@ -220,11 +278,15 @@
             />
             <div class="card-body">
               <h5 class="card-title">Lentes</h5>
-              <p class="card-text">
-                -Especiales para deportistas. -Unico color. -Rayos-v.
-                -Economicas. -Edicion limitada. -$ 50000.
-              </p>
-              <button id="agregar" onclick="agregar()">Comprar</button>
+              <ul class="card-text">
+                <li>Especiales para deportistas.</li>
+                <li>Unico color.</li>
+                <li>Rayos-v.</li>
+                <li>Economicas. </li>
+                <li>Edicion limitada.</li>
+                <li>$ 50000.</li>
+              </ul>
+              <button type="submit" class="btn btn-outline-dark"  data-toggle="modal" data-target="#exampleModal">Más info</button>
             </div>
           </div>
         </div>
@@ -238,29 +300,31 @@
             />
             <div class="card-body">
               <h5 class="card-title">Mochila</h5>
-              <p class="card-text">
-                -Tamaño medio. -3 unicos colores. -$ 25000.
-              </p>
-              <button id="agregar" onclick="agregar()">Comprar</button>
+              <ul class="card-text">
+                <li>Tamaño medio.</li>
+                <li>3 unicos colores.</li>
+                <li>$ 25000.</li>
+              </ul>
+              <button type="submit" class="btn btn-outline-dark"  data-toggle="modal" data-target="#exampleModal">Más info</button>
             </div>
           </div>
         </div>
       </div>
 
       <!--banner-->
-      <center>
-        <div id="banner">
-          <div class="row">
-            <div class="col-md-12">
-              <p>Contactos: 3150008935-2334443</p>
-              <p>linea nacional: 01800032323134</p>
-              <p>Quejas y reclamos: minimarket.comercioweb@gmail.com</p>
-              <p>Dererchos de autor Reservados</p>
-              <p>MiniMarket web</p>
-            </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="footer">
+            <ul>
+              <li>Contactos: 3150008935-2334443</li>
+              <li>Quejas y reclamos: minimarket.comercioweb@gmail.com</li>
+              <li>Dererchos de autor Reservados</li>
+              <li>linea nacional: 01800032323134</li>
+              <li>MiniMarket web</li>
+            </ul>
           </div>
         </div>
-      </center>
+      </div>
     </div>
   </body>
   <script type="text/javascript" src="../../includes/jquery/jquery-3.3.1.js"></script>
@@ -269,7 +333,8 @@
     type="text/css"
     href="../../includes/bootsrap 4/css/bootstrap.min.css"
   />
+  <script type="text/javascript" src="../../includes/bootsrap 4/js/bootstrap.bundle.min.js"></script>
   <script type="text/javascript" src="../js/general.js"></script>
   <link rel="stylesheet" href="../js/general.js" />
-  <link rel="stylesheet" href="../css/accesorios.css" />
+  <link rel="stylesheet" href="../css/ropa.css" />
 </html>

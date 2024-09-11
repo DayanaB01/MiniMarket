@@ -1,27 +1,31 @@
-@font-face{
-    font-family: titulo;
-    src: url(../../includes/tipo/Sweet\ Hipster.ttf);
+@font-face {
+  font-family: titulo;
+  src: url(../../includes/tipo/Sweet\ Hipster.ttf);
 }
 
-h1{
-    font-family:titulo;
-    font-size: 100px;
-    }
-    
-    #inicio{
-    color : black;
-    }
-    
-    #barra{
-        background-color: blue;
-        height: 45px;
-    }
-    
-    #vistas{
-        color: white;
-    }
+h1 {
+  font-family: titulo;
+  font-size: 100px;
+}
 
-    #banner{
-        background-color: black;
-        color: white;
-    }
+#inicio {
+  color: black;
+}
+
+#barra {
+  background-color: blue;
+  height: 45px;
+}
+
+#vistas {
+  color: white;
+}
+
+.footer{
+    background-color: #343a40 ;
+    color: white;
+    display: flex;
+} 
+.footer ul{
+    list-style: none;
+}
