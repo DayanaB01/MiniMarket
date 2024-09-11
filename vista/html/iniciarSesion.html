@@ -2,119 +2,116 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <title>Iniciar Sesion</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Iniciar Sesion</title>
 </head>
 
 <body>
+  <div class="container">
     <div class="container">
-        <div class="container">
-            <div class="row">
-              <div class="col-md-11">
-                <div class="bannerNav">
-                  <h1>MiniMarket.com</h1>
-                  <img src="/vista/imagenes/shopping-cart.png" alt="icono de compra">
-                </div>
-                <div class="inicioSesion">
-                  <img src="/vista/imagenes/account.png" alt="perfil">
-                  <a href="/vista/html/iniciarSesion.html" id="inicio">Iniciar Sesion</a>
-                </div>
-              </div>
-            </div>
-
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-              <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <a class="navbar-brand" href="#">MiniMarket</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              </button>
-    
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="../../index.html">Inicio <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="ropa.html">Ropa</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="accesorios.html">Accesorios</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="carrito.html">Carrito de compras</a>
-                  </li>
-                </ul>
-              </div>
-              </nav>
-            </div>
+      <div class="row">
+        <div class="col-md-11">
+          <div class="bannerNav">
+            <h1>MiniMarket.com</h1>
+            <img src="/vista/imagenes/shopping-cart.png" alt="icono de compra">
           </div>
+          <div class="inicioSesion">
+            <img src="/vista/imagenes/account.png" alt="perfil">
+            <a href="/vista/html/iniciarSesion.html" id="inicio">Iniciar Sesion</a>
+          </div>
+        </div>
+      </div>
 
-        <!--titulo de inicio de sesion-->
-       
-            <div class="row">
-                <center>
-                <div class="col-md-5">
-                    <h2>INICIO DE SESION
-                        EN MINIMARKET.COM
-                    </h2><br><br>
-                <label for="Usuario" class="texto" >Usuario </label>
-                <input type="text" maxlength="20" id="nombre"><br>
-                <label for="Contraseña" class="texto" >Contraseña</label>
-                <input type="password" id="contrasena" maxlength="25"><br><br>
-                <input type="button" id="ingresar" value="Ingresar"  onclick="inicioSesion()" class="btn btn-primary">
-                </div>      
-            </center>  
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">MiniMarket</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="../../index.html">Inicio <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ropa.html">Ropa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="accesorios.html">Accesorios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="carrito.html">Carrito de compras</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <!--titulo de inicio de sesion-->
+
+    <div class="row">
+      <div class="col-md-5">
+        <h5>INICIAR SESION</h5>
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Usuario </label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Contraseña</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <button type="submit"  onclick="inicioSesion()">Ingresar</button>
+        </form>
+      </div>
+
 
         <!--instrucciones-->
         <div class="col-md-5">
-            <h5>INTRUCCIONES</h5>
-            <p>-Ingresa el nombre de usuario que utilisastes cuando te registrastes.</p><br>
-            <p>-Ingresa la contraseña creada por ti en el registro.</p><br>
-            <p>-No compartas la contraseña con nadie.</p><br>
-            <p>-Si tienes algun problema con el ingreso por favor comunicarse con los contactos que aparecen en la
-                parte inferior de la pantalla.</p><br>
-            <p>-Utiliza tu correo para el registro en nuestro portal.</p><br>
-           <a href="registro.html"> <input type="button" id="registrar"  value="Registrarme"  class="btn btn-primary"></a>
-           <a href="../html/productos.html">Admin</a>
+          <h5>INTRUCCIONES</h5>
+          <ul>
+            <li>Ingresa el nombre de usuario que utilisastes cuando te registrastes.</li>
+            <li>Ingresa la contraseña creada por ti en el registro.</li>
+            <li>No compartas la contraseña con nadie.</li>
+            <li>Si tienes algun problema con el ingreso por favor comunicarse con los contactos que aparecen en la
+              parte inferior de la pantalla.</li>
+            <li>Utiliza tu correo para el registro en nuestro portal.</li>
+          </ul>
+          <a href="registro.html"> <button id="registrar">Registrarme</button></a>
+          <a href="../html/productos.html">Admin</a>
         </div>
-        </div><br><br>
-           
+    </div>
+
 
          <!--banner-->
-         <center>
-                <div id="banner">
-                    <div class="row">
-    
-                        <div class="col-md-12">
-    
-                                <p>Contactos:  3150008935-2334443 </p>
-                                <p> linea nacional:  01800032323134</p>
-                                <p> Quejas y reclamos:  minimarket.comercioweb@gmail.com</p>
-                                <p> Dererchos de autor Reservados</p>
-                                <p>MiniMarket web</p>
-    
-    
-    
-                        </div>
-    
-                    </div>
-                </div>
-            </center>
+         <div class="row">
+          <div class="col-md-12">
+            <div class="footer">
+              <ul>
+                <li>Contactos: 3150008935-2334443</li>
+                <li>Quejas y reclamos: minimarket.comercioweb@gmail.com</li>
+                <li>Dererchos de autor Reservados</li>
+                <li>linea nacional: 01800032323134</li>
+                <li>MiniMarket web</li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
 
 
 
-    </div>
+  </div>
 </body>
 <script type="text/javascript" src="../../includes/jquery/jquery-3.3.1.js"></script>
-<link
-  rel="stylesheet"
-  type="text/css"
-  href="../../includes/bootsrap 4/css/bootstrap.min.css"
-/>
+<link rel="stylesheet" type="text/css" href="../../includes/bootsrap 4/css/bootstrap.min.css" />
 <script type="text/javascript" src="../js/general.js"></script>
 <link rel="stylesheet" href="../js/general.js" />
 <link rel="stylesheet" href="../css/sesion.css">
