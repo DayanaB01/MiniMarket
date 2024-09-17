@@ -2,25 +2,56 @@
   font-family: titulo;
   src: url(../../includes/tipo/Sweet\ Hipster.ttf);
 }
+@font-face {
+  font-family: market;
+  src: url(../../includes/tipo/ChelseaMarket-Regular.ttf);
+}
 
-h1 {
+h1{
   font-family: titulo;
-  font-size: 100px;
 }
-
-#inicio {
-  color: black;
+h3, li, label{
+  font-family:market;
 }
-
-#barra {
-  background-color: blue;
-  height: 45px;
+.col-md-11{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-#vistas {
-  color: white;
+.bannerNav{
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
 }
-
+.bannerNav img{
+  width: 15%;
+  height: fit-content;
+}
+.inicioSesion{
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: center;
+}
+.inicioSesion a{
+ color: #000000;
+}
+.inicioSesion img{
+  width: 10%;
+  height: fit-content;
+}
+.col-md-6{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+button{
+  background-color: #343a40 ;
+  color:#ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+}
 .footer{
     background-color: #343a40 ;
     color: white;
@@ -28,4 +59,29 @@ h1 {
 } 
 .footer ul{
     list-style: none;
+}
+
+@media (max-width: 768px){
+
+  h1{
+      display: none;
+  }
+  .col-md-11{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+  .bannerNav{
+      width: 70%;
+  }
+  .bannerNav img {
+      width: 20%;
+  }
+  .inicioSesion{
+      display: flex;
+      align-items: center;
+  }
+  .inicioSesion a{
+      color: #000000;
+  }
 }

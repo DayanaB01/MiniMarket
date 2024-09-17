@@ -61,32 +61,39 @@
 
             <div class="col-md-6">
              
-                    <h3>REGISTRARSE</h3>
-                    <label for="Nombre" class="texto">Nombre</label>
-                    <input type="text" id="nombre" maxlength="15">
-                    <label for="Apellido" class="texto">Apellido</label>
-                    <input type="text" id="apellido" maxlength="20">
-                    <label for="documento" class="texto">Documento</label>
-                    <input type="text" id="documento" maxlength="4">
-                    <label for="Correo" class="texto">Correo</label>
-                    <input type="text" id="correo" maxlength="30">
-                    <label for="Contrasena" class="texto">Contraseña</label>
-                    <input type="password" id="contrasena" maxlength="15">
-               <input type="button" id="registro" onclick="conectar()" value="Enviar" class="btn btn-primary">
-         
+              <h3>REGISTRARSE</h3>
+              <form>
+                <div class="form-group">
+                  <label>NOMBRE: </label>
+                  <input type="text" name="" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="">APELLIDO: </label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Correo: </label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Contraseña: </label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <button type="submit" onclick="conectar()">Registrarme</button>
+              </form>         
             </div>
 
             <!--Instrucciones-->
             <div class="col-md-6">
-                <center>
-                    <h3>INSTRUCCIONES</h3><br><br>
-                    <p>-Ingresa tu nombre el cual tambien sera tu nombre de usuario.</p>
-                    <p>-Ingresa tu apellido.</p>
-                    <p>-Ingresa solo el año de nacimiento ej:1999</p>
-                    <p>-Ingresa tu correo mas activo pues te estaremos informando acerca de promociones que tenemos para ti, nuevos productos y lo mas importante podras recuperar tu contraseña en caso de que se te olvide</p>
-                    <p>-Ingresa la contraseña que utilizaras al ingresar a nuestro portal.</p>
-                </center>
 
+              <h3>INSTRUCCIONES</h3>
+              <ul>
+                <li>Ingresa tu nombre el cual tambien sera tu nombre de usuario.</li>
+                <li>Ingresa tu apellido.</li>
+                <li>Ingresa solo el año de nacimiento ej:1999</li>
+                <li>Ingresa tu correo mas activo pues te estaremos informando acerca de promociones que tenemos para ti, nuevos productos y lo mas importante podras recuperar tu contraseña en caso de que se te olvide</li>
+                <li>Ingresa la contraseña que utilizaras al ingresar a nuestro portal.</li>
+              </ul>
             </div>
 
 
